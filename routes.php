@@ -20,4 +20,6 @@ Route::get('/', 'MataAjarController@index');
 Route::post('mataajar/input', 'MataAjarController@input');
 Route::get('mataajar/hapus/{id}', 'MataAjarController@hapus');
 Route::get('mataajar/edit/{id}', 'MataAjarController@edit');
-Route::post('mataajar/doupdate', 'MataAjarController@doEdit');
+/*
+*TEsting source tree nih cyn
+*/
